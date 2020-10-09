@@ -1,0 +1,254 @@
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602162734501	geckodriver	INFO	Listening on 127.0.0.1:54744
+1602162737576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofileXts390"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602162739725	Marionette	INFO	Listening on port 54752
+1602162740228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602162837171	Marionette	INFO	Stopped listening on port 54752
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602162838797	geckodriver	INFO	Listening on 127.0.0.1:54833
+1602162841867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofile0LtzsA"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602162844027	Marionette	INFO	Listening on port 54841
+1602162844516	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602163317683	Marionette	INFO	Stopped listening on port 54841
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileR3YXq7"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602163038909	Marionette	INFO	Listening on port 54942
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1602163039413	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602163425861	geckodriver	INFO	Listening on 127.0.0.1:55096
+1602163428946	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofilebjnRo6"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602163431149	Marionette	INFO	Listening on port 55105
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1602163431597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602163526000	geckodriver	INFO	Listening on 127.0.0.1:55232
+1602163529112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofilekLzQyt"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602163531232	Marionette	INFO	Listening on port 55241
+1602163531252	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602164102679	geckodriver	INFO	Listening on 127.0.0.1:55484
+1602164105774	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofilehDSMy9"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602164108066	Marionette	INFO	Listening on port 55494
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1602164108423	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602164172908	geckodriver	INFO	Listening on 127.0.0.1:55582
+1602164175974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofileI7MP5p"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602164178191	Marionette	INFO	Listening on port 55591
+1602164178646	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: Error: Failed to fetch https://www.instagram.com/_wrbike/. Code 2153390067.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:549:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 549, column: 16
+console.error: (new Error("Failed to fetch https://www.instagram.com/_wrbike/. Code 2153390067.", "resource://devtools/shared/DevToolsUtils.js", 549))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 549: Error: Failed to fetch https://www.instagram.com/_wrbike/. Code 2153390067.
+JavaScript error: , line 0: uncaught exception: Object
+1602164329729	Marionette	INFO	Stopped listening on port 55591
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofilej1F4rO"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602164328914	Marionette	INFO	Listening on port 55787
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1602164329326	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602164821589	geckodriver	INFO	Listening on 127.0.0.1:65265
+1602164824661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofile6JkqPi"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602164826873	Marionette	INFO	Listening on port 65275
+1602164827347	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602164927941	Marionette	INFO	Stopped listening on port 65271602164928353	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofileB92HGm"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602164930574	Marionette	INFO	Listening on port 65404
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1602164931012	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602165183735	Marionette	INFO	Stopped listening on port 65404
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofilebBlS7g"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602165012443	Marionette	INFO	Listening on port 53935
+1602165012911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602165313774	Marionette	INFO	Stopped listening on port 53935
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofileT36JOe"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602165305792	Marionette	INFO	Listening on port 54187
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1602165306247	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: Error: Failed to fetch https://www.instagram.com/valentim.buldog_frances/. Code 2153390067.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:549:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 549, column: 16
+console.error: (new Error("Failed to fetch https://www.instagram.com/valentim.buldog_frances/. Code 2153390067.", "resource://devtools/shared/DevToolsUtils.js", 549))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 549: Error: Failed to fetch https://www.instagram.com/valentim.buldog_frances/. Code 2153390067.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:406:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2271))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2271))
+[Child 15100, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+[Child 15100, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602165728732	Marionette	INFO	Stopped listening on port 54187
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+1602165728896	Marionette	INFO	Listening on port 61904
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1602165729201	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+SourceActor threw an exception: Error: Failed to fetch https://www.instagram.com/valentim.buldog_frances/. Code 2153390067.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:549:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 549, column: 16
+console.error: (new Error("Failed to fetch https://www.instagram.com/valentim.buldog_frances/. Code 2153390067.", "resource://devtools/shared/DevToolsUtils.js", 549))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 549: Error: Failed to fetch https://www.instagram.com/valentim.buldog_frances/. Code 2153390067.
+1602165929892	Marionette	INFO	Stopped listening on port 61904
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileldN5TY"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602165927762	Marionette	INFO	Listening on port 62114
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1602165928202	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+SourceActor threw an exception: Error: Failed to fetch https://www.instagram.com/valentim.buldog_frances/. Code 2153390067.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:549:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 549, column: 16
+console.error: (new Error("Failed to fetch https://www.instagram.com/valentim.buldog_frances/. Code 2153390067.", "resource://devtools/shared/DevToolsUtils.js", 549))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 549: Error: Failed to fetch https://www.instagram.com/valentim.buldog_frances/. Code 2153390067.
+1602166096602	Marionette	INFO	Stopped listening on port 62114
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileNUuE9L"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602166091677	Marionette	INFO	Listening on port 62296
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1602166092019	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602166248431	Marionette	INFO	Stopped listening on port 62296
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602166380105	geckodriver	INFO	Listening on 127.0.0.1:62545
+1602166383172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofileE6fkrP"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602166385388	Marionette	INFO	Listening on port 62553
+1602166385832	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602166456090	Marionette	INFO	Stopped listening on port 62553
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WESLEY~1\\AppData\\Local\\Temp\\rust_mozprofileFIILko"
+JavaScript error: mozilla.cfg, line 32: ReferenceError: Components is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602166442494	Marionette	INFO	Listening on port 62646
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1602166442813	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602166507883	Marionette	INFO	Stopped listening on port 62646
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
