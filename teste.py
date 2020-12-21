@@ -1,5 +1,7 @@
 import os
 from os import listdir
 
-for file in listdir('C:/Users/wesleygurgel/Documents'):
-    print(file)
+arquivos = ['oi', 'EAI', 'eai']
+
+for n in arquivos:
+    print(n.lower())
