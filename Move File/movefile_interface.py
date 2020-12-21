@@ -14,13 +14,13 @@ class MoveFile:
     def __init__(self):
         self.pastaorigem = ''
         self.pastadestino = ''
-        self.executaveis_extensoes = ['exe', 'dll', 'jnlp']
-        self.pdfs_extensoes = ['pdf', 'txt']
+        self.executaveis_extensoes = ['exe', 'dll', 'jnlp', 'bat', 'msi']
+        self.pdfs_extensoes = ['pdf', 'txt', 'log']
         self.imagens_extensoes = ['jpg', 'png', 'gif', 'jpeg', 'bmp', 'tiff', 'psd', 'exif', 'raw', 'eps', 'svg', 'webp']
         self.winrar_extensoes = ['zip', 'arj', 'cab', 'rar', 'tar', 'z', 'gz', 'taz', 'tgz', '7z']
         self.word_extensoes = ['doc', 'docm', 'docx', 'dot', 'dotm', 'odt', 'rtf', 'wps', 'xml', 'xps', 'xls', 'xlsx', 'ppt',
-                          'pps']
-        self.somvideo_extensoes = ['mp3', 'wav', 'mid', 'avi', 'mpg', 'wmv', 'mov', 'webm']
+                          'pps', 'pptx', 'log']
+        self.somvideo_extensoes = ['mp3', 'wav', 'mid', 'avi', 'mpg', 'wmv', 'mov', 'webm', 'mp4', 'mpeg']
         self.mydirs = ['PDF', 'Documentos do Word', 'Imagens', 'Winrar', 'Executaveis', 'Outros', 'Som e Video']
 
     def pasta_origem(self):
