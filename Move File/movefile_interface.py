@@ -19,7 +19,7 @@ class MoveFile:
         self.imagens_extensoes = ['jpg', 'png', 'gif', 'jpeg', 'bmp', 'tiff', 'psd', 'exif', 'raw', 'eps', 'svg', 'webp']
         self.winrar_extensoes = ['zip', 'arj', 'cab', 'rar', 'tar', 'z', 'gz', 'taz', 'tgz', '7z']
         self.word_extensoes = ['doc', 'docm', 'docx', 'dot', 'dotm', 'odt', 'rtf', 'wps', 'xml', 'xps', 'xls', 'xlsx', 'ppt',
-                          'pps', 'pptx', 'log']
+                          'pps', 'pptx']
         self.somvideo_extensoes = ['mp3', 'wav', 'mid', 'avi', 'mpg', 'wmv', 'mov', 'webm', 'mp4', 'mpeg']
         self.mydirs = ['PDF', 'Documentos do Word', 'Imagens', 'Winrar', 'Executaveis', 'Outros', 'Som e Video']
 
