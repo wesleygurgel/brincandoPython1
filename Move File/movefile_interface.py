@@ -18,8 +18,7 @@ class MoveFile:
         self.pdfs_extensoes = ['pdf', 'txt', 'log']
         self.imagens_extensoes = ['jpg', 'png', 'gif', 'jpeg', 'bmp', 'tiff', 'psd', 'exif', 'raw', 'eps', 'svg', 'webp']
         self.winrar_extensoes = ['zip', 'arj', 'cab', 'rar', 'tar', 'z', 'gz', 'taz', 'tgz', '7z']
-        self.word_extensoes = ['doc', 'docm', 'docx', 'dot', 'dotm', 'odt', 'rtf', 'wps', 'xml', 'xps', 'xls', 'xlsx', 'ppt',
-                          'pps', 'pptx']
+        self.word_extensoes = ['doc', 'docm', 'docx', 'dot', 'dotm', 'odt', 'rtf', 'wps', 'xml', 'xps', 'xls', 'xlsx', 'ppt', 'pps', 'pptx']
         self.somvideo_extensoes = ['mp3', 'wav', 'mid', 'avi', 'mpg', 'wmv', 'mov', 'webm', 'mp4', 'mpeg']
         self.mydirs = ['PDF', 'Documentos do Word', 'Imagens', 'Winrar', 'Executaveis', 'Outros', 'Som e Video']
 
@@ -34,6 +33,22 @@ class MoveFile:
         else:
             self.pastadestino = filedialog.askdirectory(initialdir="/", title='Select a Directory')
             myDestino['text'] = f'Pasta de Destino: {self.pastadestino}'
+
+    def procurar_diretorio(self, extensao):
+        if extensao in self.executaveis_extensoes:
+            return 'Executaveis'
+        if extensao in self.pdfs_extensoes:
+            return 'PDF'
+        if extensao in self.word_extensoes:
+            return 'Documentos do Word'
+        if extensao in self.imagens_extensoes:
+            return 'Imagens'
+        if extensao in self.winrar_extensoes:
+            return 'Winrar'
+        if extensao in self.somvideo_extensoes:
+            return 'Som e Video'
+
+        return 'Outros'
 
     def executar_programa(self):
         if self.pastadestino != '':
@@ -54,30 +69,19 @@ class MoveFile:
                 # Arquivos do PATH indicado pelo usuário
                 for file in listdir(self.pastaorigem):
                     if file == 'desktop.ini':
-                        file = ''
+                        continue
 
                     if os.path.isfile(self.pastaorigem + '/' + file):
                         formato_arquivo = file.split('.')
 
-                        if formato_arquivo[-1].lower() in self.executaveis_extensoes:
-                            shutil.move(f'{self.pastaorigem}/{file}', f'{self.pastadestino}/Executaveis/{file}')
-                        elif formato_arquivo[-1].lower() in self.pdfs_extensoes:
-                            shutil.move(f'{self.pastaorigem}/{file}', f'{self.pastadestino}/PDF/{file}')
-                        elif formato_arquivo[-1].lower() in self.imagens_extensoes:
-                            shutil.move(f'{self.pastaorigem}/{file}', f'{self.pastadestino}/Imagens/{file}')
-                        elif formato_arquivo[-1].lower() in self.winrar_extensoes:
-                            shutil.move(f'{self.pastaorigem}/{file}', f'{self.pastadestino}/Winrar/{file}')
-                        elif formato_arquivo[-1].lower() in self.word_extensoes:
-                            shutil.move(f'{self.pastaorigem}/{file}', f'{self.pastadestino}/Documentos do Word/{file}')
-                        elif formato_arquivo[-1].lower() in self.somvideo_extensoes:
-                            shutil.move(f'{self.pastaorigem}/{file}', f'{self.pastadestino}/Som e Video/{file}')
-                        else:
-                            shutil.move(f'{self.pastaorigem}/{file}', f'{self.pastadestino}/Outros/{file}')
+                        diretorio = self.procurar_diretorio(formato_arquivo[-1].lower())
+
+                        shutil.move(f'{self.pastaorigem}/{file}', f'{self.pastadestino}/{diretorio}/{file}')
+
             else:
                 pass
         else:
             response2 = messagebox.showerror('Error!', 'Por Favor, selecione a pasta de destino!')
-
 
 
 move_file = MoveFile()

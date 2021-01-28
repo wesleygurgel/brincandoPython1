@@ -1,7 +1,8 @@
 import os
 from os import listdir
 
-arquivos = ['oi', 'EAI', 'eai']
+dict = {'rogerio': 25,
+        'wesley': 22
+        }
 
-for n in arquivos:
-    print(n.lower())
+print(dict['rogerio'])
