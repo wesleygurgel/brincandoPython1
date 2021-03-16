@@ -1,0 +1,5 @@
+/* boa noite */
+INSERT into pje.tb_acolhimento_dep_jdcial(id_acolhimento_deposito_jdcial, nm_acolhimento_deposito_jdcial, in_ativo) VALUES ('11','CARTAO','S'); -- novo teste
+/* bom dia */
+-- teestando
+INSERT into pje.tb_acolhimento_dep_jdcial(id_acolhimento_deposito_jdcial, nm_acolhimento_deposito_jdcial, in_ativo) VALUES ('4','CARTAO','S');
